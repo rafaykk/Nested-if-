@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+    int score;
+    int wickets;
+    printf("enter the score of PAK=");
+    scanf("%d", &score);
+    printf("enter the fallen wickets of PAK=");
+    scanf("%d", &wickets);
+    if(score >= 300 &&  wickets < 10)
+    {
+        if(score ==300 && wickets<10)
+        {
+            printf("MATCH DRAW, NO ONE WON THE MATCH");
+        }
+        else
+        {
+            printf("PAK WON THE MATCH");
+        }
+    }
+    else
+    {
+        printf("IND WON THE MATCH");
+    }
+    return 0;
+}
